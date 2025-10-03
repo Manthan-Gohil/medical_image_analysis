@@ -1,1 +1,21 @@
-data
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Data and Models - VERY IMPORTANT
+data/
+saved_models/
+
+# IDE and Editor specific files
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Secrets - Do not upload your API keys
+secrets.toml
+*.env
